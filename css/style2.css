@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    background-image: url(../img/bannerobrigado.png);
+    background-repeat: no-repeat;
+    background-position: center 0 ;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+
+h1{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: rgb(230, 18, 117);
+    font-size: 3em;
+}
+
+.txt1{
+    color: white;
+    font-size: 1.5em;
+}
+
+
+.btn{
+    background-color: #34af23;
+    margin-top: .8em;
+    padding: 13px 70px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 1em;
+    border: none;
+    font-weight: 900;
+}
+
+.card{
+    padding-top: 2em;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.card1{
+    background-color: #333333de;
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.card1 h3{
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+.card1 h2{
+    color: rgb(230, 18, 117);
+    margin-top: 10px;
+    font-size: 1em;
+    text-align: left;
+}
+.card1 p{
+    font-size: 1em;
+    text-align: left;
+}
+
+/* //media */
+@media screen and (max-width: 1250px) {
+    
+    .card{
+        padding-top: 2em;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .card1{
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+}
+
